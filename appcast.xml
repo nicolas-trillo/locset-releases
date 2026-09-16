@@ -6,6 +6,29 @@
         <description>Most recent LocSet updates</description>
         <language>en</language>
         <item>
+            <title>LocSet 1.1.0</title>
+            <pubDate>Wed, 16 Sep 2026 18:45:00 +0000</pubDate>
+            <sparkle:version>1.1</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>LocSet 1.1.0 — Security &amp; Performance Update</h2>
+                <ul>
+                    <li>Upgraded license storage cryptography to ChaCha20Poly1305 AEAD authenticated encryption.</li>
+                    <li>Enforced strict macOS code signature seal integrity validation on daemon processes.</li>
+                    <li>Sandboxed Python module resolution within application bundle boundaries.</li>
+                    <li>Added geographic coordinate boundary validation.</li>
+                    <li>Improved iOS version parsing and error feedback.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/nicolas-trillo/locset-releases/releases/download/v1.1.0/LocSet-1.1.0.zip"
+                sparkle:edSignature="Lq3GSklIDYyzwKDEKUWuWPVzeWKQlvl7G7mPw1iJYvPOjCVF8gegzpabeSYjMrf7z9P1fqDTvHy7CjUveSvqBQ=="
+                length="60761847"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>LocSet 1.0.0</title>
             <pubDate>Wed, 16 Sep 2026 16:20:00 +0000</pubDate>
             <sparkle:version>1.0</sparkle:version>
